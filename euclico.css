@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+body{
+    background-color:  	#F5F5F5;
+}
+
+h1{
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 30px;
+    color: #f5f5f5;
+}
+
+h2{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 35px;
+    color: #f5f5f5;
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 25px;
+    color: #f5f5f5;
+    padding: 5px 0px 10px 0px;
+    text-align: center;
+}
+
+p{
+    
+    color: #f5f5f5;
+}
+
+header{
+    background-color: #708090;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+footer{
+    background-color: #2F4F4F;
+    width: 100%;
+    height: 30px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    clear: both;
+}
+
+/*5pag*/
+#text{
+    background-image: url(../imagens/moonc.jpg);
+    width: 100%;
+    height: 535px;
+    background-size: 100%;
+    padding: 40px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
+    clear: both;
+}
+#img_me{
+    background-image: url(../imagens/me.png);
+    width: 60%;
+    height: 340px;
+    background-size: 100%;
+    margin: 60px 0px 0px -85px;
+}
+#texto{
+    width: 68%;
+    height: 200px;
+    background-size: 100%;
+    margin: 60px 0px 0px 0px;
+    float: right;
+}
+
+#nome{
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 50px;
+    color: #f5f5f5;
+    padding: 0px 0px 10px 0px;
+}
+
+/*Menu*/
+
+#logo{
+    float:left; 
+}
+
+#menu{
+    padding: 15px;
+    float:right;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #f5f5f5;
+    padding: 15px 15px; 
+    margin: 10px;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+#menu a:hover{
+    background-color:  rgba(0, 0, 0, 0.1);
+}
+
+#inicio a{
+    text-decoration: none;
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 30px;
+    color: #f5f5f5;
+    
+}
+
+/*2 pagina*/
+#text2{
+    width: 100%;
+    height: 600px;
+    background-color: #170B3B;
+    padding: 50px 0px 0px 0px;
+}
+
+#img1{
+    background-image: url(../imagens/bran.png);
+    width: 16%;
+    height: 150px;
+    background-size: 100%;
+    margin: 150px 0px 0px 0px;
+    float: left;
+}
+
+#img2{
+    background-image: url(../imagens/branl.png);
+    width: 16%;
+    height: 150px;
+    background-size: 100%;
+    margin: 150px 0px 0px 60px;
+    float: left;
+}
+
+#fund{
+    margin: 180px 0px 0px 16px;
+    float: left;
+}
+
+#med{
+    margin: 180px 0px 0px 10px;
+    float: right;
+}
+
+/*3 pagina*/
+
+#text3{
+    width: 100%;
+    height: 600px;
+    background-color: #BDBDBD;
+    
+}
+
+
+#esquerda{
+    width: 50%;
+    height: 560px;
+    background-color: #008B8B;
+    padding: 40px 0px 0px 0px;
+    float: left;
+}
+#acad{
+    margin: 30px 60px;
+}
+
+#img3{
+    background-image: url(../imagens/acad.png);
+    width: 50%;
+    height: 180px;
+    background-size: 100%;
+    margin: -20px 0px 40px 90px;
+}
+
+#direita{
+    width: 50%;
+    height: 560px;
+    background-color: #2F4F4F;
+    padding: 40px 0px 0px 0px;
+    float: right;
+}
+#prof{
+    margin: 30px 60px;
+}
+
+#img4{
+    background-image: url(../imagens/prof.png);
+    width: 50%;
+    height: 180px;
+    background-size: 100%;
+    margin: -20px 0px 40px 80px;
+}
+
+/*4 pagina*/
+
+#text4{
+    width: 100%;
+    height: 600px;
+    background-color: #BDBDBD;
+    
+}
+
+
+#esquerda2{
+    width: 50%;
+    height: 560px;
+    background-color:/*#0B6121*/ #2F4F4F;
+    padding: 40px 0px 0px 0px;
+    float: left;
+}
+#ing{
+    margin: 30px 60px;
+}
+
+#img5{
+    background-image: url(../imagens/usa.png);
+    width: 35%;
+    height: 125px;
+    background-size: 100%;
+    margin: 10px 0px 40px 120px;
+}
+
+#img6{
+    background-image: url(../imagens/brasil.png);
+    width: 35%;
+    height: 125px;
+    background-size: 100%;
+    margin: 30px 0px 40px 120px;
+}
+
+#direita2{
+    width: 50%;
+    height: 560px;
+    background-color: /*#0B3B24*/#008B8B;
+    padding: 40px 0px 0px 0px;
+    float: right;
+}
+#curs{
+    margin: 30px 60px;
+}
+
+#img7{
+    background-image: url(../imagens/senai.png);
+    width: 50%;
+    height: 125px;
+    background-size: 100%;
+    margin: 0px 0px 40px 100px;
+}
+
+#img8{
+    background-image: url(../imagens/prime.png);
+    width: 33%;
+    height: 115px;
+    background-size: 100%;
+    margin: 30px 0px 30px 130px;
+}
+
+/*5 pagina*/
+
+#text5{
+    width: 100%;
+    height: 1230px;
+    background-color: #170B3B;
+    padding: 50px 0px 0px 0px;
+}
+
+#esquerda3{
+    width: 50%;
+    height: 1150px;
+    background-color: #170B3B;
+    float: left;
+}
+#direita3{
+    width: 50%;
+    height: 1150px;
+    background-color: #170B3B;
+    float: right;
+}
+
+
+#img_film{
+    background-image: url(../imagens/sociedade.png);
+    width: 65%;
+    height: 430px;
+    background-size: 100%;
+    margin: -20px 0px 40px 80px;
+}
+
+#img_liv{
+    background-image: url(../imagens/obj.png);
+    width: 65%;
+    height: 430px;
+    background-size: 100%;
+    margin: -20px 0px 40px 80px;
+}
+
+#img_vid{
+    width: 65%;
+    height: 400px;
+    background-size: 100%;
+    margin: 50px 0px 0px 5px;
+}
+
+#img_music{
+    width: 65%;
+    height: 20x;
+    background-size: 100%;
+    margin: 50px 0px 0px 30px;
+}
+
+table{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    border-collapse: collapse;
+}
+
+
+#tabela td{
+    height: 65px;
+padding: 5px;
+}
+
+table:hover{
+    background-color: rgba(255,255,255, 0.1);
+}
+
+/*classes*/
+.ali{
+    text-align: center;
+}
+.title{
+    background-color: rgba(255,255,255, 0.1);
+}
+.container{
+    width: 960px;
+    margin: auto;
+    transition: all .4s;
+}
+.efeito{
+    background-color:  rgba(0, 0, 0, 0.6);
+}
